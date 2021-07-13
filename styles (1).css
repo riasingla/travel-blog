@@ -1,0 +1,223 @@
+body{
+    background-color:#DEEDF0;
+    margin:0 0;
+} 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li{
+    float: left;
+}
+  
+ li a {
+    display: block;
+    color:azure;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+ li a:hover {
+    background-color:#39A6A3;
+  }
+
+.navbar{
+  width: 100%;
+  height: 30px;
+  font-size: larger;
+}  
+
+/* #start-container h1{
+  color:purple ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+} */
+.start-container{
+  margin-top:10px;
+  position: relative;
+}
+/* .center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+} */
+
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.start-container img{
+  width: 100%;
+  height: auto;
+  /* opacity: 0.9; */
+  margin-top:30px
+}
+
+#home-front{
+  background-size: 300px 500px;
+}
+
+.middle-container{
+  margin:100px 0;
+}
+.middle-container h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.travel-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+}
+.travel-row h3{
+  font-size: 1.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.travel-world{
+  
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  float:left;
+  margin-right:30px;
+
+}
+.PowerfulReasons_hero{
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  float:right;
+  margin-left: 30px;
+
+}
+
+/* .img1{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 700px;
+  height: 500px;
+  margin-left:36px;
+
+}
+
+.img2{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 700px;
+  height: 500px;
+  margin-left:36px;
+  
+} */
+
+.bottom-container p{
+  background-color:#39A6A3;
+  padding:30px 0 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.blog-gallery{
+  width:auto;
+  height: 300px;
+  margin-bottom: 200px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 6px solid #39A6A3;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #203534 ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+/* Styling for About.html */
+
+.middle-about-container{
+  width:100%;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+
+.middle-contact-container{
+  width:100%;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.contact{
+  margin-top: 10px;;
+}
+
+.forest{
+  width: 200px;
+  height: 300px;
+}
+
+.blog-middle-container{
+  margin-left: 45px;
+  margin-right: 45px;
+}
