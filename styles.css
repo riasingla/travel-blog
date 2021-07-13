@@ -1,37 +1,281 @@
 body{
-    background-color: #171010;
-    margin:0 0;
-    opacity: 10;
+  background-color:#DEEDF0;
+  margin:0 0;
 } 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
- li {
-    float: left;
-  }
-  
- li a {
-    display: block;
-    color:azure;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
- li a:hover {
-    background-color:#907FA4;
-  }
-  h1 
-  {
-    color =
-  }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color:azure;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#39A6A3;
+}
+
+.navbar{
+width: 100%;
+height: 30px;
+font-size: larger;
+}  
+
+/* #start-container h1{
+color:purple ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bolder;
+text-align: center;
+margin-top: 50px;
+} */
+.start-container{
+margin-top:10px;
+position: relative;
+}
+/* .center-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 18px;
+} */
+
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(58, 57, 57);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.start-container img{
+width: 100%;
+height: auto;
+/* opacity: 0.9; */
+margin-top:30px
+}
+
+#home-front{
+background-size: 300px 500px;
+}
+
+.middle-container{
+margin:100px 0;
+}
+.middle-container h1{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 6rem;
+font-weight: 900;
+}
+
+.travel-row{
+width:50%;
+margin:100px auto 100px auto;
+text-align:left;
+}
+.travel-row h3{
+font-size: 1.5rem;
+font-family:Arial, Helvetica, sans-serif;
+}
+.travel-world{
+
+width: 150px;
+height: 150px;
+border-radius: 8px;
+float:left;
+margin-right:30px;
+
+}
+.PowerfulReasons_hero{
+width: 150px;
+height: 150px;
+border-radius: 8px;
+float:right;
+margin-left: 30px;
+
+}
+
+
+
+.bottom-container p{
+background-color:#39A6A3;
+padding:30px 0 20px;
+margin-bottom: 0px;
+text-align: center;
+}
+
+.blog-gallery{
+width:auto;
+height: 300px;
+margin-bottom: 200px;
+}
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 6px solid #39A6A3;
+
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+overflow: hidden;
+text-overflow: ellipsis;
+color: #203534 ;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+.responsive {
+  width: 49.99999%;
+  margin: 6px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.responsive {
+  width: 100%;
+}
+}
+
+
+/* Styling for About.html */
+
+.middle-about-container{
+width:100%;
+height: 100%;
+margin-top: 50px;
+margin-bottom: 500px;
+}
+
+.middle-contact-container{
+width:100%;
+height: 100%;
+margin-top: 50px;
+margin-bottom: 150px;
+}
+
+.contact{
+margin-top: 10px;;
+}
+
+.forest{
+width: 200px;
+height: 300px;
+}
+
+
+
+.bgim{
+width:100%;
+height:500px;
+border-radius: 2%;
+}
+
+.Blog_h1{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 4rem;
+font-weight: 900;
+
+}
+
+.Blog_h2{
+color: rgb(17, 113, 192);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.Blog_p{
+color:black;
+font-family:sans-serif;
+font-size: 120%;
+text-align: justify;
+padding-left:20px;
+padding-right:20px
+}
+
+.img1{
+
+display: block;
+width: 250;
+height: 200;
+padding:10px;
+border-radius: 10%;
+
+}
+
+.img2{
+
+display: block;
+width: 250;
+height: 150;
+padding:10px;
+border-radius: 10%;
+margin-right: 800px;
+
+}
+
+.blogger1 h3{
+font-family:sans-serif;
+padding-left: 10px;
+color:rgb(53, 124, 206);
+}
+
+.top5 h2{
+color: rgb(17, 113, 192);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.blogger1 p{
+color:black;
+font-family:sans-serif;
+font-size: 120%;
+text-align: justify;
+padding-left:20px;
+padding-right:20px
+}
+
+
+.blogger1 img{
+border-radius: 8px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
