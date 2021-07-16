@@ -3,8 +3,15 @@
   <head>
      <title>Travel Blog Contact</title>
      <link rel="stylesheet" href="styles.css">
+     
   </head>
-
+<style>
+  body{
+    background-image: url("contact_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+</style>
   <body>
     <div class="navbar">
       <ul>
@@ -15,10 +22,10 @@
       </ul>
   </div>
   
-  <div class="middle-contact-container">
+  <div class="middle-container">
       <h1>This is contact page</h1>
       <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available..
+          For more information regarding our travel blogs, how to reach the bloggers, packages and many more intricacies kindly contact us on the given below information
       </p>
       <div class="contact">
         <h1>Contact us here</h1>
@@ -28,9 +35,9 @@
         <h2>We will appreciate a feedback:</h2>
         <form class="contact-form" action="">
           <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname"><br>
+          <input type="text" id="fname" name="fname" required><br>
           <label for="email">Your email:</label><br>
-          <input type="email" id="email" name="email"><br><br>
+          <input type="email" id="email" name="email" required><br><br>
           <textarea name="message" rows="10" cols="30"></textarea>
           <br />
           <input type="submit" value="Submit">
